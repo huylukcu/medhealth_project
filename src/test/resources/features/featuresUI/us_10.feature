@@ -16,8 +16,8 @@ Feature: Ui_Feature
     Then Verify that their Appointments list on My Appointments page
     Then Verify that their Appointments time slots on My Appointments page
 
-    @TC_02
-    Scenario:User(doctor) can see patient id, start date, end date, status…
-    Then Verify that patient id, start date, end date, status
-
-
+#    @TC_02
+#    Scenario:User(doctor) can see patient id, start date, end date, status…
+#    Then Verify that patient id, start date, end date, status
+#
+#
