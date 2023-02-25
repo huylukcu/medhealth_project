@@ -9,7 +9,6 @@ public class US_11_DoctorApptPage {
     public US_11_DoctorApptPage() {
         PageFactory.initElements(Driver.getDriver(),this);
     }
-
     @FindBy(id = "appointment-heading")
     public WebElement ApptList;
 
