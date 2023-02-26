@@ -15,7 +15,7 @@ Feature: Ui_Feature
     Scenario:Doctor should be able to see his/her appointment list
     Then Verify that their Appointments list on My Appointments page
     Then Verify that their Appointments time slots on My Appointments page
-      Then close the application
+    Then close the application
 
 
   @TC_02
