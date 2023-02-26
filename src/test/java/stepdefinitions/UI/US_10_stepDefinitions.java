@@ -29,18 +29,22 @@ public class US_10_stepDefinitions {
     }
     @Then("user provides the passWord as {string}")
     public void user_provides_the_pass_word_as(String string) {
+
         page.passwordInput.sendKeys("Serinhisar20");
     }
     @Then("user clicks on the signInButton")
     public void user_clicks_on_the_sign_in_button() {
+
         page.signInSubmitButton.click();
     }
     @Then("user clicks MY PAGE dropdown")
     public void user_clicks_my_page_dropdown() {
+
         page.myPagesDropDown.click();
     }
     @Then("user clicks Search Patient button")
     public void user_clicks_search_patient_button() {
+
         page.searchPatient.click();
     }
     @Then("user provides patient in ssn box {string}")
@@ -53,6 +57,9 @@ public class US_10_stepDefinitions {
     }
     @Then("user edits {string}")
     public void user_edits(String string) {
+        page.patientFirstName.click();
+
+
         page.patientFirstName.sendKeys("X"+ Keys.ENTER);
 
     }

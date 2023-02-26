@@ -20,10 +20,7 @@ public class US_11_LoginPage {
 
     @FindBy(id = "password")
     public WebElement passwordInput;
-
-    @FindBy(id = "rememberMe")
-    public WebElement rememberMeCheckbox;
-
+    
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement signInSubmitButton;
 

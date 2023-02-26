@@ -25,19 +25,22 @@ public class US_11_DoctorApptPage {
     public WebElement myPages;
 
     @FindBy(xpath = "(//a[@class='dropdown-item'])[1]")
-    public WebElement myAppointments;
+    public WebElement myAppointmentButton;
 
-    @FindBy(xpath = "//h2[@id=\"appointment-heading\"]")
-    public WebElement myAppointment;
 
-    //@FindBy(xpath = "//input[@id='fromDate']")
-    //public WebElement fromDate;
-
-    //@FindBy(xpath = "//input[@id='toDate']")
-    //public WebElement toDate;
+    @FindBy(xpath = "//h2[@id ='appointment-heading']")
+    public WebElement myAppointmentsPage;
 
     @FindBy(xpath = "//select[@id=\"appointment-status\"]")
     public WebElement status;
+    @FindBy(xpath = "//*[text()='ID']")
+    public WebElement idButton;
+
+    @FindBy(xpath = "//*[text()='Start DateTime']")
+    public WebElement startDateTimeButton;
+
+    @FindBy(xpath = "//*[text()='End DateTime']")
+    public WebElement endDateTimeButton;
 
 
 }
