@@ -16,14 +16,17 @@ public class US_11_StepDefinitions {
 
     @Given("User navigate to {string}")
     public void user_navigate_to(String string) {
+
         Driver.getDriver().get(ConfigReader.getProperty("medunnaUrl"));
     }
     @When("Click Sign in icon")
     public void click_sign_in_icon() {
+
         us_11_LoginPage.signIn.click();
     }
     @When("Choose Sign in from dropdown")
     public void choose_sign_in_from_dropdown() {
+
         us_11_LoginPage.signInOption.click();
     }
     @When("Enter the username")
