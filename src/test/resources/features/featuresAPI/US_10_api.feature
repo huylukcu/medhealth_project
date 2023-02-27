@@ -1,4 +1,4 @@
-@MedunnaApiGetTest
+@ApiGetTest
 Feature:Api_Feature
 
   @Api

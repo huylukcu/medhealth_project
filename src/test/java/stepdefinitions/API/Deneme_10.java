@@ -4,24 +4,23 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.restassured.response.Response;
-import pojos.US_10;
+import pojos.US_10_Pojo;
 
 import static io.restassured.RestAssured.given;
 import static utilities.AuthenticationMedunna.generateToken;
 
-public class Deneme {
+public class Deneme_10 {
     String url;
     Response response;
 
-    US_10 us_10;
+    US_10_Pojo us_10;
     @Given("user set the url {string}")
     public void user_set_the_url(String URL) {
         url = URL;
-
     }
     @And("Call the Pojo to create expected data")
     public void callThePojoToCreateExpectedData() {
-        us_10 = new US_10( "user_112233445_56677889991677377735384","Sabir","Adil","301-20-3030","sabiradil@gmail.com");
+        us_10 = new US_10_Pojo( "user_112233445_56677889991677377735384","Sabir","Adil","301-20-3030","sabiradil@gmail.com");
 
 
     }

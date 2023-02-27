@@ -3,7 +3,7 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 
-public class US_10 {
+public class US_10_Pojo {
     private String login;
     private String firstname;
 
@@ -11,7 +11,7 @@ public class US_10 {
     private String ssn;
     private String email;
 
-    public US_10(String login, String firstname, String lastname, String ssn, String email) {
+    public US_10_Pojo(String login, String firstname, String lastname, String ssn, String email) {
         this.login = login;
         this.firstname = firstname;
         this.lastname = lastname;
@@ -19,7 +19,7 @@ public class US_10 {
         this.email = email;
     }
 
-    public US_10() {
+    public US_10_Pojo() {
 
     }
 
