@@ -13,9 +13,9 @@ public class AuthenticationMedunna {
 
     public static String generateToken() {
         Map<String, Object> med = new HashMap<>();
-        med.put("password", "AdminTeam04");
+        med.put("password", "Batch81+");
         med.put("rememberMe", true);
-        med.put("username", "Team04+");
+        med.put("username", "Batch81");
 
         Response response = given().
                 contentType(ContentType.JSON).

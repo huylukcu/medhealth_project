@@ -2,7 +2,7 @@
 Feature: Ui_Feature
 
   Background:Login
-    Given User navigate to "https://www.medunna.com/"
+    Given User navigate to "medunnaUrl"
     When Click Sign in icon
     And Choose Sign in from dropdown
     And Enter the username
@@ -18,7 +18,7 @@ Feature: Ui_Feature
     Then close the application
 
 
-  @TC_02
+    @TC_02
     Scenario:User(doctor) can see patient id, start date, end date, status…
     Then Verify that patient id, start date, end date, status
     Then close the application

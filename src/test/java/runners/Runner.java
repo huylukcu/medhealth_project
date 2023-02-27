@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "./src/test/resources/features",
         glue = {"stepdefinitions", "hooks"},
         dryRun = false,
-        tags = "@Ui_Dr_Appt"
+        tags = "@MedunnaApiGetTest"
 
 )
 public class Runner {

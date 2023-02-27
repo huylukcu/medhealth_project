@@ -1,4 +1,4 @@
-@UI_10_patientedits
+@UI_10_patient_edits
 
 Feature:patient edition
   Scenario Outline: staff should be able to edit patient

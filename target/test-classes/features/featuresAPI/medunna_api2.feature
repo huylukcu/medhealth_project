@@ -1,7 +1,7 @@
-Feature:Api
+Feature:Api_Dr_Appt
 
- Background:
-    Given User navigate to "https://www.medunna.com/"
+ Scenario:
+    Given user sends a GET request  to "https://www.medunna.com/"
     When doctor sends a request to "
     And Choose Sign in from dropdown
     And Enter the username
@@ -9,5 +9,4 @@ Feature:Api
     And Click the sign in button
     And Click on MY PAGE
     And Choose My Appointments from dropdown
-  Scenario:
-    Then HTTP status codes should be "200"
+   Then HTTP status codes should be "200"
