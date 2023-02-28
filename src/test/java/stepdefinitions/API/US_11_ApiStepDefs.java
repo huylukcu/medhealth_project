@@ -1,17 +1,16 @@
 package stepdefinitions.API;
 
-import base_urls.MedunnaBaseUrl;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import io.restassured.response.Response;
 
-import static base_urls.MedunnaBaseUrl.spec;
-
-public class US_11_Api {
+public class US_11_ApiStepDefs {
     Response response;
+    //DoctorApp doctorApp = new DoctorApp();
     @Given("user sends a request for appointment data")
     public void user_sends_a_request_for_appointment_data() {
+
+
 
 
     }

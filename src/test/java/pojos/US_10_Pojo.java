@@ -18,35 +18,26 @@ public class US_10_Pojo {
         this.ssn = ssn;
         this.email = email;
     }
-
     public US_10_Pojo() {
-
     }
-
     public String getLogin() {
         return login;
     }
-
     public void setLogin(String login) {
         this.login = login;
     }
-
     public String getFirstname() {
         return firstname;
     }
-
     public void setFirstname(String firstname) {
         this.firstname = firstname;
     }
-
     public String getLastname() {
         return lastname;
     }
-
     public void setLastname(String lastname) {
         this.lastname = lastname;
     }
-
     public String getSsn() {
         return ssn;
     }

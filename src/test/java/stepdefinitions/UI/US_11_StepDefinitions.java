@@ -20,63 +20,63 @@ public class US_11_StepDefinitions {
         Driver.getDriver().get(ConfigReader.getProperty("medunnaUrl"));
     }
 
-    @When("Click Sign in icon")
+    @When("Click Sign in icon11")
     public void click_sign_in_icon() {
 
         us_11_LoginPage.signIn.click();
     }
 
-    @When("Choose Sign in from dropdown")
+    @When("Choose Sign in from dropdown11")
     public void choose_sign_in_from_dropdown() {
 
         us_11_LoginPage.signInOption.click();
     }
 
-    @When("Enter the username")
+    @When("Enter the username11")
     public void enter_the_username() {
 
         us_11_LoginPage.usernameInput.sendKeys("DoktorSedat");
     }
 
-    @When("Enter the password")
+    @When("Enter the password11")
     public void enter_the_password() throws InterruptedException {
         Thread.sleep(1000);
 
         us_11_LoginPage.passwordInput.sendKeys("Maitland20");
     }
 
-    @When("Click the sign in button")
+    @When("Click the sign in button11")
     public void click_the_sign_in_button() {
         us_11_LoginPage.signInSubmitButton.click();
     }
 
-    @When("Click on MY PAGE")
+    @When("Click on MY PAGE11")
     public void click_on_my_page() throws InterruptedException {
         Thread.sleep(1000);
 
         us_11_doctorApptPage.myPagesDropDown.click();
     }
 
-    @When("Choose My Appointments from dropdown")
+    @When("Choose My Appointments from dropdown11")
     public void choose_my_appointments_from_dropdown() throws InterruptedException {
         Thread.sleep(1000);
         us_11_doctorApptPage.myAppointmentButton.click();
     }
 
-    @Then("Verify that their Appointments list on My Appointments page")
+    @Then("Verify that their Appointments list on My Appointments page11")
     public void verify_that_their_appointments_list_on_my_appointments_page() throws InterruptedException {
         Thread.sleep(1000);
         assertTrue(us_11_doctorApptPage.myAppointmentsPage.isDisplayed());
     }
 
-    @Then("Verify that their Appointments time slots on My Appointments page")
+    @Then("Verify that their Appointments time slots on My Appointments page11")
     public void verify_that_their_appointments_time_slots_on_my_appointments_page() throws InterruptedException {
         Thread.sleep(1000);
         assertTrue(us_11_doctorApptPage.fromDate.isDisplayed());
         assertTrue(us_11_doctorApptPage.toDate.isDisplayed());
     }
 
-    @Then("close the application")
+    @Then("close the application11")
     public void close_the_application() {
         Driver.closeDriver();
     }
