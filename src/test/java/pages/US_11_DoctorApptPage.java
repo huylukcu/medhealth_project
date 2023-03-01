@@ -29,9 +29,10 @@ public class US_11_DoctorApptPage {
 
     @FindBy(xpath = "//h2[@id ='appointment-heading']")
     public WebElement myAppointmentsPage;
-
-    @FindBy(xpath = "//select[@id=\"appointment-status\"]")
+    @FindBy(xpath = "//*[text()='Status']")
     public WebElement status;
+
+
     @FindBy(xpath = "//*[text()='ID']")
     public WebElement idButton;
 

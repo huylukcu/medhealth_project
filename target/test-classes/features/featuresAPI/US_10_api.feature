@@ -1,8 +1,6 @@
 @ApiGetTest
-Feature:Api_Feature
+Feature:Api_staf_editing_pation
 
-  @Api
-  @GetRegistrantRequirement
   Scenario:US_TC05_Get_Request
     Given user set the url "https://medunna.com/api/user?ssn=301-20-3030"
     And Call the Pojo to create expected data

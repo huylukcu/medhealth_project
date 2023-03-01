@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.374" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="db_Doctor_Appointments" name="TC01_read_db_Doctor_Appointments" time="0.029">
+<failure/>
+<system-out><![CDATA[
+Given user connects to application's database...............................undefined
+]]></system-out>
+</testcase>
+</testsuite>

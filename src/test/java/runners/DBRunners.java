@@ -12,10 +12,10 @@ import org.junit.runner.RunWith;
                 "rerun:target/failedRerun.txt"
         },
         monochrome=true,
-        features = "./src/test/resources/features/jdbc",
+        features = "./src/test/resources/features/featuresDB",
         glue = {"stepdefinitions"},
         dryRun = false,
-        tags = "@db_read"
+        tags = "@DB_Dr_Appt."
 )
 public class DBRunners {
 }
