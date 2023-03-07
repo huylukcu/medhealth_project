@@ -16,6 +16,7 @@ public class US_10_ApiStepDefs {
     US_10_Pojo us_10;
     @Given("user set the url {string}")
     public void user_set_the_url(String URL) {
+
         url = URL;
     }
     @And("Call the Pojo to create expected data")

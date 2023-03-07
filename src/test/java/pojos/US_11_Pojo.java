@@ -20,4 +20,11 @@ public class US_11_Pojo {
     private String startDate;
     private String endDate;
     private String status;
+
+    public US_11_Pojo(String id, String startDate, String endDate, String status) {
+        this.id = id;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.status = status;
+    }
 }

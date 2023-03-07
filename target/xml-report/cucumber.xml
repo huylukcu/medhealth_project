@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.374" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="db_Doctor_Appointments" name="TC01_read_db_Doctor_Appointments" time="0.029">
-<failure/>
+<testsuite name="Cucumber" time="2.244" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="db_Doctor_Appointments" name="user(doctor) should be able to see his/her appointment list" time="1.558">
 <system-out><![CDATA[
-Given user connects to application's database...............................undefined
+Given user(doctor) connects to application's database.......................passed
+And user gets the column "created_by" from table "appointment"..............passed
+Then verify that with the database..........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

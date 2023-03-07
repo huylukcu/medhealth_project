@@ -17,5 +17,7 @@ Feature:patient edition
     Then user edits "<Last Name>"
     Examples: user info
       | ID   | First Name | Last Name |
-      | 5955 |            | Cabir     |
+      | 5955 | Hay        | Cabir     |
     #123-11-3333 ssn
+
+
