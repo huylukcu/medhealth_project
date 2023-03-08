@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="2.244" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="db_Doctor_Appointments" name="user(doctor) should be able to see his/her appointment list" time="1.558">
+<testsuite name="Cucumber" time="2.717" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US_31 Database" name="Validate all Physicians" time="2">
 <system-out><![CDATA[
-Given user(doctor) connects to application's database.......................passed
-And user gets the column "created_by" from table "appointment"..............passed
-Then verify that with the database..........................................passed
+Given admin connects to the databaseh.......................................passed
+When admin gets "first_name" as a list from "physician".....................passed
+Then admin validates all physicians.........................................passed
+Then verify that "name" should be in list...................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

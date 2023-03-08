@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
         features = "./src/test/resources/features",
         glue = {"stepdefinitions", "hooks"},
         dryRun = false,
-        tags = "@UI_10_patient_edits"
+        tags = "@DB"
 
 )
 public class Runner {

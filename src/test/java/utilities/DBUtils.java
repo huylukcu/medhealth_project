@@ -123,7 +123,7 @@ public class DBUtils {
      *         results in multiple rows and/or columns of data, only first row will
      *         be returned. The rest of the data will be ignored
      */
-    public static List<Object> getRowList(String query) {
+    public static List<Object> getRowList(String query, String columnName) {
         return getQueryResultList(query).get(0);
     }
 
