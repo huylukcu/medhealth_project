@@ -10,10 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-
-
-public class Us_31_Frnds {
+public class Us_31_DoctorValidate {
     List<String> firstNames = new ArrayList<>();
     int counter;
 
@@ -41,12 +38,10 @@ public class Us_31_Frnds {
     @Then("verify that {string} should be in list")
     public void verify_that_should_be_in_list(String string) {
 
-
         for(String w : firstNames){
             if(w.equals("Tom")){
                 counter++;
             }
-
         }
         System.out.println(counter);
         //Assert.assertEquals(1,counter);

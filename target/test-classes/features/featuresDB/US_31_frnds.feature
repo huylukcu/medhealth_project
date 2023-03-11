@@ -1,4 +1,4 @@
-@DB
+@DB_Dr_Validate
 Feature: US_31 Database
 
   Scenario: Validate all Physicians

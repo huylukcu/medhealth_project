@@ -14,8 +14,8 @@ import org.junit.runner.RunWith;
         monochrome=true,
         features = "./src/test/resources/features/featuresDB",
         glue = {"stepdefinitions"},
-        dryRun = false,
-        tags = "@DB_Physicians"
+        dryRun = true,
+        tags = "@US_31_Api"
 )
 public class DBRunners {
 }
