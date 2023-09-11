@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="1.348" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US_31 Database" name="Validate all Physicians" time="1.014">
+<testsuite name="Cucumber" time="1.914" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US_31 Database" name="Validate all Physicians" time="1.363">
 <system-out><![CDATA[
 Given admin connects to the databaseh.......................................passed
 When admin gets "first_name" as a list from "physician".....................passed
